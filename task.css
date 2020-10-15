@@ -1,0 +1,64 @@
+body{
+    background-image: url(bbbb.png);
+}
+h1,h3{
+    color: rgb(222, 139, 176);
+}
+h3{
+    display: inline;
+}
+.nav{
+   float: right;
+}
+.navlinks{
+     color: rgb(222, 139, 176);
+     margin: 3px;
+     font-size: 16px;
+}
+#bbb{
+    margin-top: 100px;
+    text-align: center;
+}
+button{
+    background-color: rgb(222, 139, 176);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border:  solid white 2px;
+}
+button:hover{
+ border: solid 1px rgb(222, 139, 176);
+ background-color: transparent;
+ color:rgb(222, 139, 176) ;
+ transition:0.8s;
+
+}
+ul{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.fab {
+    border-radius: 10px;
+    padding: 5px;
+    margin: -5px;
+    text-decoration: none;
+    width:35px;
+    height:35px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.fab:hover{
+    margin: 0;
+}
+.fa-facebook-f,.fa-google,.fa-youtube{
+     border: solid 1px rgb(222, 139, 176) ;
+      background-color:rgb(222, 139, 176) ;
+    color:black;
+}
+.fa-twitter, .fa-linkedin{
+    border: solid 1px black;
+    background-color: black;
+    color:rgb(222, 139, 176);
+}
